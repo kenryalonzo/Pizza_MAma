@@ -1,0 +1,29 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+body {
+    background: url("images/main_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    font-size: 18px;
+}
